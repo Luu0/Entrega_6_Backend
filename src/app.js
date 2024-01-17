@@ -44,11 +44,6 @@ app.engine("hbs",handlebars.engine({
   helpers: {
     eq: function (a, b) {
       return a === b;
-    },
-    getPageNumbers: function (totalPages) {
-      const pageNumbers = Array.from({ length: totalPages }, (_, i) => i + 1);
-      console.log(pageNumbers);
-      return pageNumbers;
     }
   }
 }));

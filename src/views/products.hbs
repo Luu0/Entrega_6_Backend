@@ -68,7 +68,6 @@
     window.location.href = `/products?page=1&limit=${newLimit}`
   }
   function logoutButtonEvent(){
-    console.log("hola")
     fetch('/api/sessions/logout', {
       method:"GET",
       headers:{

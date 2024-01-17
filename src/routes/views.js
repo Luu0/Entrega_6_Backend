@@ -17,7 +17,7 @@ router.get("/products", async (req,res) => {
       if (err) {
           throw err
       }
-      res.send(html)
+    res.send(html)
   })
 })
 
